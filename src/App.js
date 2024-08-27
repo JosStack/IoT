@@ -1,10 +1,14 @@
-import './styles/App.css';
+import HeaderComp from "./Components/HeaderComp/HeaderComp";
+import MainComp from "./Components/MainComp/MainComp";
+import FooterComp from "./Components/FooterComp/FooterComp";
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello, Everyone!</h1>
-      <p>This website is going to uncover a lot of insights regarding the field of IoT!</p>
+      <HeaderComp/>
+      <MainComp/>
+      <FooterComp/>
     </div>
   );
 }
