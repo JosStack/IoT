@@ -1,0 +1,12 @@
+.header{
+    height: 80px;
+    padding: 20px 40px;
+    width: 100%;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}.title{
+    color: var(--text-color);
+    font-size: 40px;
+}

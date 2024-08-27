@@ -1,0 +1,16 @@
+.main-container{
+    height: 80vh;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}.content{
+    min-height: 40px;
+    font-size: 30px;
+    text-align: left;
+    padding: 20px 0;
+}.content-tile{
+    
+}
