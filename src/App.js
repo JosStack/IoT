@@ -10,15 +10,15 @@ import HomePage from "./Pages/Home/HomePage";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/IoT/",
       element: <HomePage/>,
     },
     {
-      path: "about/",
+      path: "/IoT/about/",
       element: <UnderDevComp/>,
     },
     {
-      path: "contact/",
+      path: "/IoT/contact/",
       element: <UnderDevComp/>,
     },
   ]);
