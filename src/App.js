@@ -3,17 +3,23 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import UnderDevComp from "./Components/UnderDev/UnderDevComp";
+import HomePage from "./Pages/Home/HomePage";
 
 
 function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <div>Hello world!</div>,
+      element: <HomePage/>,
     },
     {
       path: "about/",
-      element: <div>About!</div>,
+      element: <UnderDevComp/>,
+    },
+    {
+      path: "contact/",
+      element: <UnderDevComp/>,
     },
   ]);
   return (
