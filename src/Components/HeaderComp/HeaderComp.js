@@ -1,10 +1,13 @@
 import './HeaderComp.css'
-import ThemeToggle from './ThemeToggle/ThemeToggle';
 
 const HeaderComp = () => {
-    return <div className='header'>
-        <h1 className='title'>IoT Engineer</h1>
-        <ThemeToggle/>
+    return <div className="header">
+        <h1 className="header-heading">IoT Engineer</h1>
+        <div className="header-icons">
+            <a className="header-icon" href='/'>HOME</a>
+            <a className="header-icon" href='/about'>ABOUT</a>
+            <a className="header-icon" href='/contact'>CONTACT</a>
+        </div>
     </div>
 }
 

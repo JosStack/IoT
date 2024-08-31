@@ -1,14 +1,25 @@
 import HeaderComp from "./Components/HeaderComp/HeaderComp";
-import MainComp from "./Components/MainComp/MainComp";
-import FooterComp from "./Components/FooterComp/FooterComp";
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <div>Hello world!</div>,
+    },
+    {
+      path: "about/",
+      element: <div>About!</div>,
+    },
+  ]);
   return (
     <div className="App">
       <HeaderComp/>
-      <MainComp/>
-      <FooterComp/>
+      <RouterProvider router={router} />
     </div>
   );
 }
