@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/IoT/static/css/main.d54121c8.css",
-    "main.js": "/IoT/static/js/main.c87f6084.js",
+    "main.css": "/IoT/static/css/main.1d5f6c66.css",
+    "main.js": "/IoT/static/js/main.398da4a2.js",
+    "static/media/IIoT.jpg": "/IoT/static/media/IIoT.3654cd677fd4ff7e3935.jpg",
     "index.html": "/IoT/index.html",
-    "main.d54121c8.css.map": "/IoT/static/css/main.d54121c8.css.map",
-    "main.c87f6084.js.map": "/IoT/static/js/main.c87f6084.js.map"
+    "main.1d5f6c66.css.map": "/IoT/static/css/main.1d5f6c66.css.map",
+    "main.398da4a2.js.map": "/IoT/static/js/main.398da4a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.d54121c8.css",
-    "static/js/main.c87f6084.js"
+    "static/css/main.1d5f6c66.css",
+    "static/js/main.398da4a2.js"
   ]
 }
