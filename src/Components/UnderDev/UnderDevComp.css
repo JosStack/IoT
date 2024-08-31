@@ -1,0 +1,13 @@
+.ud-container{
+    height: 90%;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ud-title{
+    color: #394f71;
+    font-size: 3rem;
+}

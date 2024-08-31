@@ -1,14 +1,31 @@
 import HeaderComp from "./Components/HeaderComp/HeaderComp";
-import MainComp from "./Components/MainComp/MainComp";
-import FooterComp from "./Components/FooterComp/FooterComp";
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import UnderDevComp from "./Components/UnderDev/UnderDevComp";
+import HomePage from "./Pages/Home/HomePage";
 
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <HomePage/>,
+    },
+    {
+      path: "about/",
+      element: <UnderDevComp/>,
+    },
+    {
+      path: "contact/",
+      element: <UnderDevComp/>,
+    },
+  ]);
   return (
     <div className="App">
       <HeaderComp/>
-      <MainComp/>
-      <FooterComp/>
+      <RouterProvider router={router} />
     </div>
   );
 }
