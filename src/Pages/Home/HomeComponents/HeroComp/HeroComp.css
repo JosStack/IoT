@@ -56,3 +56,17 @@
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
+/* Mobile */
+@media screen and (max-width: 481px) {
+
+}
+
+/* Tablet */
+@media screen and (min-width: 482px) and (max-width: 768px) {
+
+}
+
+/* Laptop */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+}

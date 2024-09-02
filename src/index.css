@@ -34,6 +34,7 @@ code {
 
   /* Secondary Colors */
   --color-secondary: #007599;     /* Blue for active states and hover effects */
+  --color-secondary-light: #90d5ff; 
 
   /* Neutral Colors */
   --color-neutral-dark: #394f71;  /* Dark neutral for headings and icons */
